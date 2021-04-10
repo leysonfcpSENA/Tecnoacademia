@@ -253,27 +253,58 @@ ol.lista > li.mas:before {
     border-bottom: 5px solid $dark-orange;    
 }
 
-.naranja-oscuro{
-    background-color: #DB9600;
+.text-color-light {
+    color: $text-color-light;
 }
 
-.naranja-claro{
-    background-color: #FFBE4A;
+.text-color-dark{
+    color: $text-color-dark;
 }
 
-.bg-gris{
-    background-color: #EDF1F4;
+.text-black {
+    color: #000000;
 }
 
-.bg-verde{
-    background-color: #E2EED7;
-}
-.text-color-dark {
+.text-color-yelow {
     color: #DB9600;
 }
 
-.recuadro-border {
-    border-radius: 1.5rem;
+.text-line{
+    border: 1px solid #CCCCCC;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.text-line-card{
+    border: 1px solid #78958A;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.list {
+    width: 100%;
+    display: flex !important;
+}
+
+
+.list__item__icon__content {
+    width: 10px;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 0.65rem;
+    margin-top: -3px;
+}
+
+.list__item__icon__title {
+    width: 15px !important;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 0.65rem;
+    margin-top: -3px;
+}
+
+.list__txt p:first-child, .list__txt h3:first-child {
+    margin-top: 0px;
 }
 
 .h-300{
@@ -304,41 +335,49 @@ ol.lista > li.mas:before {
     margin-top: 70px;
 }
 
-.text-line-card {
-    border: 1px solid #5E8775;
-    margin-bottom: 0px;
-    margin-top: 0px;
+.border-color-black{
+    border-color: black;
 }
 
-.list {
-    width: 100%;
-    display: flex !important;
+.siglas-background {
+    background-color: #444242 !important;
+}
+.siglas-title-backgroun-number{
+    background-color:#DB9600 !important;
+    color: #1F1E1E !important;
 }
 
-.list__item__icon {
-    position: relative;
-    width: 15px;
-    margin-right: 0.65rem;
-    margin-top: -3px;
+.background-color-white {
+    background-color: #FFFFFF;
 }
 
-.list__item__icon img {
-    width: 10px;
-    vertical-align: middle;
+.background-color-naranja {
+    background-color: #DB9600;
 }
 
-.list__txt p:first-child, .list__txt h3:first-child {
-    margin-top: 0px;
+.background-color-marfil {
+    background-color: #F2E7CB;
 }
 
-.position-url-1{
-    margin-top: -70% !important;
+.recuadro {
+    background-color: #EDF1F4 !important;
+    border-radius: 1.5rem;
+    margin: 5px;
 }
 
-.position-url-2{
-    margin-top: -65% !important;
+.recuadro-title{
+    background-color: #444242;
+    color: #F2E7CB;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 5px;
 }
 
-.position-url-3{
-    margin-top: -60% !important;
+.recuadro-content {
+    margin: 50px;
+}
+
+.recuadro-border{
+    background-color: #D5CCFF;
+    border-radius: 15px 50px 30px;
 }
