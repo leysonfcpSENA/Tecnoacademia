@@ -1,7 +1,7 @@
 .container#page-tema-2
 
-    .header#tema-2.-recuadro.mt-0.mb-0
-        h1 #[span.number.px-2.py-2 2.0] Componentes de un robot y tipos
+    .header#tema-2.-recuadro.mt-5.mb-0
+        h1 #[span.number.px-2.py-2 2.0] #[span.title.px-2.py-2 Componentes de un robot y tipos]
 
     .jumbotron.bg-white 
         .row.my-5
@@ -12,271 +12,270 @@
 
                 img(src="assets/images/pages/tema-2/imagen1.png", alt="").img-fluid
 
-            .header#tema-1_1.-recuadro.mt-0.mb-0
-                h2 #[span.number.px-2.py-2 2.1] Partes de un robot
-
+    .jumbotron.bg-white 
         .row
-            .col
+
+            .header#tema-2_1.-recuadro.mt-0.mb-0
+                h2 #[span.number.px-2.py-2 2.1] #[span.title.px-2.py-2 Partes de un robot]
+
+        .row.mt-5
+            .col.justify-content-center.align-items-center
             video(src="media/videos/3_Partes.mp4" width="100%"  height="100%" controls)
 
-            .row.my-5
-                .col-12.col-lg-8
-                    h3 #[strong • Chasis o esqueleto del robot]
-                    p Esta parte del robot es la base para soportar las otras partes de un robot; de forma similar a un vehículo, un robot necesita una estructura rígida donde se puedan ubicar las diferentes piezas, como sensores, servomotores, controlador, baterías de alimentación y demás componentes. Dependiendo de la utilidad del robot cambia la forma de su esqueleto, por ejemplo, es muy diferente el chasis de un robot aspirador que tiene una forma circular, al chasis de un robot militar.
+        .row
+            .col-12.col-lg-8.mt-5
+                h3 #[strong • Chasis o esqueleto del robot]
+                p Esta parte del robot es la base para soportar las otras partes de un robot; de forma similar a un vehículo, un robot necesita una estructura rígida donde se puedan ubicar las diferentes piezas, como sensores, servomotores, controlador, baterías de alimentación y demás componentes. Dependiendo de la utilidad del robot cambia la forma de su esqueleto, por ejemplo, es muy diferente el chasis de un robot aspirador que tiene una forma circular, al chasis de un robot militar.
 
-                .col-12.col-lg-4
+            .col-12.col-lg-4.mt-5.text-center
 
-                    img(src="assets/images/pages/tema-2/imagen2.png", alt="").img-fluid
-            
-            .row.my-5
-                .col-12.col-lg-12
-                    h3 #[strong • Sensores]
-                    p Los sensores son los elementos que permiten que el robot obtenga la información necesaria de su entorno. Por ejemplo, los sensores de obstáculos permiten detectar si el robot tiene contacto con algún objeto externo. Entre los tipos de sensores más empleados en la robótica se encuentra:
-
-
-            .row.my-5
-
-                .col-12.col-lg-4
-
-                    img(src="assets/images/pages/tema-2/imagen3.png", alt="").img-fluid
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores ultrasonidos o ultrasónicos]
-                    p Estos sensores envían una señal que al rebotar con los posibles obstáculos y regresar, permiten calcular la distancia a la cual se encuentra el objeto que se encuentra al frente. Por lo general estos sensores permiten detectar objetos situados en una distancia entre 0 y 6 metros. La señal recibida se envía al controlador del robot quien es el que realiza el calculo de la distancia con base en el tiempo de ida y vuelta de la señal ultrasónica enviada.
-
-
-            .row.my-5
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de temperatura o térmicos]
-                    p Estos sensores son capaces de medir la temperatura de objetos que se encuentre a una distancia de incluso 2 metros. Por lo general estos sensores cuentan en su interior con una matriz de varios sensores (entre 4 y 8 sensores). Una de las ventajas de estos sensores es que permiten detectar personas por ejemplo sin necesidad de que se tenga movimiento. Estos sensores por lo general tienen un rango de medición de 180 grados centígrados.
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen4.png", alt="").img-fluid
-
-            .row.my-5
-
-                .col-12.col-lg-4
-
-                    img(src="assets/images/pages/tema-2/imagen5.png", alt="").img-fluid
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores infrarrojos]
-                    p Estos sensores permiten la medición de distancias con una precisión mayor que los ultrasonidos; se emplean para medir distancias de objetos a menos de 80 cms. Los sensores infrarrojos permiten que se estén continuamente realizando la medición de la distancia; para ser más exactos cada 50 milisegundos.
-
-
-            .row.my-5
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de contacto o toque]
-                    p Estos sensores permiten detectar obstáculos por contacto cuando los demás sensores han fallado. Estos sensores se utilizan como detectores de final de carrera para detectar posiciones de piezas motorizadas, objetos y palancas. Permiten que los robots tengan una medida de seguridad para prevenir golpes y averías ante eventuales choques.
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen6.png", alt="").img-fluid
-
-            .row.my-5
-
-                .col-12.col-lg-4
-
-                    img(src="assets/images/pages/tema-2/imagen7.png", alt="").img-fluid
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de gas, monóxido de carbono y humo]
-                    p Estos sensores permiten detectar si hay una presencia de humo o de gas combustible en concentraciones entre 10 y 12.000 ppm (partículas por millón), para el caso de humo y gas; y para el caso de monóxido de carbono permiten detectar concentraciones entre 10 y 1200 ppm.
-
-
-            .row.my-5
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de vibración]
-                    p Estos sensores permiten detectar tanto la vibración como el movimiento, ya no requieren el uso de mercurio. Su funcionamiento permite pasar de abierto a cerrado o viceversa cuando se desequilibra por vibración o golpe. 
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen8.png", alt="").img-fluid
-
-            .row.my-5
-
-                .col-12.col-lg-4
-
-                    img(src="assets/images/pages/tema-2/imagen9.png", alt="").img-fluid
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de aceleración lineal]
-                    p Esto sensores permiten detectar cuando ocurre una velocidad o un impacto que genera fuerza mayor a 5 G +/- 1.5 G. Ayudan a detectar diferentes golpes e impactos de los robots; está conformados por una cápsula hermética que tiene un contacto normalmente abierto y se cierra si se realiza la aceleración suficiente. 
-
-            .row.my-5
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de temperatura]
-                    p Los sensores de temperatura permiten generar un cambio en el voltaje en un pin del mismo sensor, cuando ocurre un cambio de temperatura. En la mayoría de sensores se tiene una precisión de +/- 1 grados centígrados en temperatura entre 0 y 70º.
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen10.png", alt="").img-fluid
-
-            .row.my-5
-
-                .col-12.col-lg-4
-
-                    img(src="assets/images/pages/tema-2/imagen11.png", alt="").img-fluid
-
-                .col-12.col-lg-8
-                    h3 
-                        em #[strong Sensores de visión]
-                    p Estos sensores están conformados por una cámara que captura imágenes en formato digital, junto con un programa de reconocimiento de código abierto. Sus costos han disminuido permitiendo incorporarlos en diferentes robots, que requieren detección de colores y reconocimiento de formas y objetos, para realizar aplicaciones como el seguimiento de objetos que están en movimiento.
-
-            .row.my-5
-
-                .col-12.col-lg-7
-                    h3 #[strong • Actuadores o motores]
-                    p Estos motores son los más usados en aplicaciones de robótica, funcionan gracias al alineamiento de dos campos magnéticos. Entre las características para realizar la selección del motor adecuado se encuentran:  
-
-                    p #[strong Las revoluciones por minuto o rpm:] corresponde al número de vueltas o rotaciones en cada minuto.
-
-                .col-12.col-lg-5
-                    img(src="assets/images/pages/tema-2/imagen12.png", alt="").img-fluid
+                img(src="assets/images/pages/tema-2/imagen2.png", alt="").img-fluid
         
-            .row.my-5
-
-                p  #[em #[strong Las revoluciones por minuto o rpm:]] corresponde al número de vueltas o rotaciones en cada minuto.
-
-                p #[em #[strong Fuerza nominal:]] es la cantidad de fuerza que se debe aplicar a un eje que gira sobre si mismo a cierta velocidad. Los motores empleados en robótica generalmente son moto reductores, estos son motores que tienen un reductor de velocidad directamente conectados. Los motorreductores generalmente contienen un engranaje en la entrada del reductor ubicado directamente en la flecha del motor.
-
-                p #[strong • Cerebro del robot o controlador]
-
-                p Los controladores de los robots son los cerebros que recogen toda la información del exterior recogida por los sensores y dependiendo del programa, realizan diferentes tareas, controlando el movimiento de los motores y definiendo el funcionamiento de los diferentes dispositivos de salida.
+        .row.my-5
+            .col-12.col-lg-12
+                h3 #[strong • Sensores]
+                p Los sensores son los elementos que permiten que el robot obtenga la información necesaria de su entorno. Por ejemplo, los sensores de obstáculos permiten detectar si el robot tiene contacto con algún objeto externo. Entre los tipos de sensores más empleados en la robótica se encuentra:
 
 
+        .row
 
-            .row.my-5
+            .col-12.col-lg-4.mt-5.text-center
 
-                .col-12.col-lg-8
+                img(src="assets/images/pages/tema-2/imagen3.png", alt="").img-fluid
 
-                    p #[em #[strong Los principales tipos de controladores empleados en la actualidad son:]]
-
-                    p #[em #[strong Arduino:]] Es una plataforma que esta conformado por una tarjeta electrónica que tiene un microcontrolador que se puede reprogramar con código abierto. Al contar con diferentes pines de entrada y salida, es fácil la conexión entre los sensores, los actuadores y el microcontrolador.  
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen13.png", alt="").img-fluid
-
-
-            .row.my-5
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen14.png", alt="").img-fluid
-
-                .col-12.col-lg-8
-
-                    p #[em #[strong Microcontroladores::]] Son dispositivos reprogramables, está compuesto por diferentes partes, una unidad central de procesamiento (CPU), unas memoras RAM y ROM y unos puertos de entrada y salida. Mediante el programa almacenado se logra definir las funciones que realiza, controlando la información de los puertos de entrada (en el caso de la robótica sensores) y enviando información a los actuadores (generalmente motores y motorreductores).
-                    
-            .row.my-5
-
-                .col-12.col-lg-8
-
-                    p #[em #[strong Raspberry Pi:]] Es una tarjeta con microcontrolador y memoria, de un tamaño pequeño, se puede considerar un ordenador de pequeño tamaño. Es reprogramable, lo que permite que se pueda utilizar en diferentes aplicaciones, entre estos la robótica. Una de las ventajas de esta tarjeta es que ya tiene incluida dos puestos USB, un puerto Ethernet y una salida HDMI, lo que permite conectar la placa a otros dispositivos y a internet.
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen15.png", alt="").img-fluid
-
-            .row.my-5
-
-                .col-12.col-lg-8
-
-                    p #[strong • Programa del robot o software controlador] 
-
-                    p El programa de un robot es el conjunto de instrucciones que permite que el robot realice diferentes tareas o labores de forma autónoma. Para lograr el funcionamiento un robot tiene algo similar a un cerebro, esto corresponde al controlador, el cual en su memoria contiene un programa, elaborado dependiendo de la función del robot.
-
-                    p Por ejemplo, un robot que tiene como función la búsqueda de una luz intermitente, debe tener un sensor de luminosidad que envíe al cerebro o controlador, la información sobre la cantidad de luminosidad, en la medida que el robot se mueva, esta información irá cambiando. El programa del robot realiza entonces el calculo de esta medida para medir la cercanía de la fuente de luz, el programa también determina si el robot debe girar a la derecha o la izquierda, avanzar o retroceder.
-
-                    p Esta es la función del programa, determinar con base en la información que le llega de los sensores, cual debe ser el movimiento del robot enviando señales de control a los actuadores o motores.
-
-                .col-12.col-lg-4
-                    img(src="assets/images/pages/tema-2/imagen16.png", alt="").img-fluid
-
-            .row.my-5
-                .col-12.col-lg-12
-
-                    h2 #[strong Tipos de robots:]
-
-                .row.mt-5
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot Manipulador]
-
-                        img(src="assets/images/pages/tema-2/imagen17.png", alt="").img-fluid
-
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot Terrestre]
-                        img(src="assets/images/pages/tema-2/imagen18.png", alt="").img-fluid
-
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot Aéreos]
-                        img(src="assets/images/pages/tema-2/imagen19.png", alt="").img-fluid
-
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot Acuáticos]
-                        img(src="assets/images/pages/tema-2/imagen20.png", alt="").img-fluid
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores ultrasonidos o ultrasónicos]
+                p Estos sensores envían una señal que al rebotar con los posibles obstáculos y regresar, permiten calcular la distancia a la cual se encuentra el objeto que se encuentra al frente. Por lo general estos sensores permiten detectar objetos situados en una distancia entre 0 y 6 metros. La señal recibida se envía al controlador del robot quien es el que realiza el calculo de la distancia con base en el tiempo de ida y vuelta de la señal ultrasónica enviada.
 
 
-                .row.mt-5
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot para Investigación  ]
+        .row
 
-                        img(src="assets/images/pages/tema-2/imagen21.png", alt="").img-fluid
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de temperatura o térmicos]
+                p Estos sensores son capaces de medir la temperatura de objetos que se encuentre a una distancia de incluso 2 metros. Por lo general estos sensores cuentan en su interior con una matriz de varios sensores (entre 4 y 8 sensores). Una de las ventajas de estos sensores es que permiten detectar personas por ejemplo sin necesidad de que se tenga movimiento. Estos sensores por lo general tienen un rango de medición de 180 grados centígrados.
 
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot didáctico]
-                        img(src="assets/images/pages/tema-2/imagen22.png", alt="").img-fluid
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen4.png", alt="").img-fluid
 
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot y Bioningeniería   ]
-                        img(src="assets/images/pages/tema-2/imagen23.png", alt="").img-fluid
+        .row
 
-                    .col-12.col-lg-3
-                        .row.justify-content-center.align-items-center
-                            p #[strong Robot Androide]
-                        img(src="assets/images/pages/tema-2/imagen24.png", alt="").img-fluid
+            .col-12.col-lg-4.mt-5.text-center
 
-            .row.my-5
-                .col-12.col-lg-12
+                img(src="assets/images/pages/tema-2/imagen5.png", alt="").img-fluid
 
-                    h2 #[strong Clasificación de los robots]
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores infrarrojos]
+                p Estos sensores permiten la medición de distancias con una precisión mayor que los ultrasonidos; se emplean para medir distancias de objetos a menos de 80 cms. Los sensores infrarrojos permiten que se estén continuamente realizando la medición de la distancia; para ser más exactos cada 50 milisegundos.
 
-                    p #[strong #[em Según su cronología:]]  La que a continuación se presenta es la clasificación más común: 
-                    p • 1a Generación: Manipuladores. Son sistemas mecánicos multifuncionales con un sencillo sistema de control, bien manual, de secuencia fija o de secuencia variable.
-                    p • 2a Generación: Robots de aprendizaje. Repiten una secuencia de movimientos que ha sido ejecutada previamente por un operador humano , por medio de un dispositivo mecánico. El operador realiza movimientos requeridos que el robot sigue y memoriza. 
-                    p • 3a Generación: Robots con control sensorizado. El controlador es una computadora que ejecuta las órdenes de un programa y las envía al manipulador para que realice los movimientos necesarios. 
-                    p • 4a Generación: Robots inteligentes. Son similares a los anteriores, pero además poseen sensores que envían información a la computadora de control sobre el estado del proceso. Esto permite una toma inteligente de decisiones y el control del proceso en tiempo real. 
 
-                    p #[strong #[em Según su inteligencia:]] La Asociación de Robots Japonés (JIRA) ha clasificado a los robots dentro de seis clases sobre la base de su nivel de inteligencia: 
-                    
-                    ol 
+        .row
 
-                        li 
-                            p Dispositivos de manejo manual, controlados por una persona. 
-                        li 
-                            p Robots de secuencia arreglada. 
-                        li 
-                            p Robots de secuencia variable, donde un operador puede modificar la secuencia fácilmente. 
-                        li 
-                            p Robots regeneradores, donde el operador humano conduce el robot a través de la tarea. 
-                        li 
-                            p Robots de control numérico, donde el operador alimenta la programación del movimiento, hasta que se enseñe manualmente la tarea. 
-                        li 
-                            p Robots inteligentes, los cuales pueden entender e interactuar con cambios en el medio ambiente.
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de contacto o toque]
+                p Estos sensores permiten detectar obstáculos por contacto cuando los demás sensores han fallado. Estos sensores se utilizan como detectores de final de carrera para detectar posiciones de piezas motorizadas, objetos y palancas. Permiten que los robots tengan una medida de seguridad para prevenir golpes y averías ante eventuales choques.
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen6.png", alt="").img-fluid
+
+        .row
+
+            .col-12.col-lg-4.mt-5.text-center
+
+                img(src="assets/images/pages/tema-2/imagen7.png", alt="").img-fluid
+
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de gas, monóxido de carbono y humo]
+                p Estos sensores permiten detectar si hay una presencia de humo o de gas combustible en concentraciones entre 10 y 12.000 ppm (partículas por millón), para el caso de humo y gas; y para el caso de monóxido de carbono permiten detectar concentraciones entre 10 y 1200 ppm.
+
+
+        .row
+
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de vibración]
+                p Estos sensores permiten detectar tanto la vibración como el movimiento, ya no requieren el uso de mercurio. Su funcionamiento permite pasar de abierto a cerrado o viceversa cuando se desequilibra por vibración o golpe. 
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen8.png", alt="").img-fluid
+
+        .row
+
+            .col-12.col-lg-4.mt-5.text-center
+
+                img(src="assets/images/pages/tema-2/imagen9.png", alt="").img-fluid
+
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de aceleración lineal]
+                p Esto sensores permiten detectar cuando ocurre una velocidad o un impacto que genera fuerza mayor a 5 G +/- 1.5 G. Ayudan a detectar diferentes golpes e impactos de los robots; está conformados por una cápsula hermética que tiene un contacto normalmente abierto y se cierra si se realiza la aceleración suficiente. 
+
+        .row
+
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de temperatura]
+                p Los sensores de temperatura permiten generar un cambio en el voltaje en un pin del mismo sensor, cuando ocurre un cambio de temperatura. En la mayoría de sensores se tiene una precisión de +/- 1 grados centígrados en temperatura entre 0 y 70º.
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen10.png", alt="").img-fluid
+
+        .row
+
+            .col-12.col-lg-4.mt-5.text-center
+
+                img(src="assets/images/pages/tema-2/imagen11.png", alt="").img-fluid
+
+            .col-12.col-lg-8.mt-5
+                h3 
+                    em #[strong Sensores de visión]
+                p Estos sensores están conformados por una cámara que captura imágenes en formato digital, junto con un programa de reconocimiento de código abierto. Sus costos han disminuido permitiendo incorporarlos en diferentes robots, que requieren detección de colores y reconocimiento de formas y objetos, para realizar aplicaciones como el seguimiento de objetos que están en movimiento.
+
+        .row
+
+            .col-12.col-lg-7.mt-5
+                h3 #[strong • Actuadores o motores]
+                p Estos motores son los más usados en aplicaciones de robótica, funcionan gracias al alineamiento de dos campos magnéticos. Entre las características para realizar la selección del motor adecuado se encuentran:  
+
+                p #[strong Las revoluciones por minuto o rpm:] corresponde al número de vueltas o rotaciones en cada minuto.
+
+            .col-12.col-lg-5.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen12.png", alt="").img-fluid
+    
+        .row.my-5
+
+            p  #[em #[strong Las revoluciones por minuto o rpm:]] corresponde al número de vueltas o rotaciones en cada minuto.
+
+            p #[em #[strong Fuerza nominal:]] es la cantidad de fuerza que se debe aplicar a un eje que gira sobre si mismo a cierta velocidad. Los motores empleados en robótica generalmente son moto reductores, estos son motores que tienen un reductor de velocidad directamente conectados. Los motorreductores generalmente contienen un engranaje en la entrada del reductor ubicado directamente en la flecha del motor.
+
+            p #[strong • Cerebro del robot o controlador]
+
+            p Los controladores de los robots son los cerebros que recogen toda la información del exterior recogida por los sensores y dependiendo del programa, realizan diferentes tareas, controlando el movimiento de los motores y definiendo el funcionamiento de los diferentes dispositivos de salida.
+
+
+
+        .row
+
+            .col-12.col-lg-8.mt-5
+
+                p #[em #[strong Los principales tipos de controladores empleados en la actualidad son:]]
+
+                p #[em #[strong Arduino:]] Es una plataforma que esta conformado por una tarjeta electrónica que tiene un microcontrolador que se puede reprogramar con código abierto. Al contar con diferentes pines de entrada y salida, es fácil la conexión entre los sensores, los actuadores y el microcontrolador.  
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen13.png", alt="").img-fluid
+
+
+        .row
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen14.png", alt="").img-fluid
+
+            .col-12.col-lg-8.mt-5
+
+                p #[em #[strong Microcontroladores::]] Son dispositivos reprogramables, está compuesto por diferentes partes, una unidad central de procesamiento (CPU), unas memoras RAM y ROM y unos puertos de entrada y salida. Mediante el programa almacenado se logra definir las funciones que realiza, controlando la información de los puertos de entrada (en el caso de la robótica sensores) y enviando información a los actuadores (generalmente motores y motorreductores).
+                
+        .row
+            .col-12.col-lg-8.mt-5
+
+                p #[em #[strong Raspberry Pi:]] Es una tarjeta con microcontrolador y memoria, de un tamaño pequeño, se puede considerar un ordenador de pequeño tamaño. Es reprogramable, lo que permite que se pueda utilizar en diferentes aplicaciones, entre estos la robótica. Una de las ventajas de esta tarjeta es que ya tiene incluida dos puestos USB, un puerto Ethernet y una salida HDMI, lo que permite conectar la placa a otros dispositivos y a internet.
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen15.png", alt="").img-fluid
+
+        .row
+
+            .col-12.col-lg-8.mt-5
+
+                p #[strong • Programa del robot o software controlador] 
+
+                p El programa de un robot es el conjunto de instrucciones que permite que el robot realice diferentes tareas o labores de forma autónoma. Para lograr el funcionamiento un robot tiene algo similar a un cerebro, esto corresponde al controlador, el cual en su memoria contiene un programa, elaborado dependiendo de la función del robot.
+
+                p Por ejemplo, un robot que tiene como función la búsqueda de una luz intermitente, debe tener un sensor de luminosidad que envíe al cerebro o controlador, la información sobre la cantidad de luminosidad, en la medida que el robot se mueva, esta información irá cambiando. El programa del robot realiza entonces el calculo de esta medida para medir la cercanía de la fuente de luz, el programa también determina si el robot debe girar a la derecha o la izquierda, avanzar o retroceder.
+
+                p Esta es la función del programa, determinar con base en la información que le llega de los sensores, cual debe ser el movimiento del robot enviando señales de control a los actuadores o motores.
+
+            .col-12.col-lg-4.mt-5.text-center
+                img(src="assets/images/pages/tema-2/imagen16.png", alt="").img-fluid
+
+        .header-arrow.my-5
+                
+            h3.text-center #[strong Tipos de robots:]
+
+        .row.justify-content-center.align-items-center
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot Manipulador]
+
+                    img(src="assets/images/pages/tema-2/imagen17.png", alt="").img-fluid
+
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot Terrestre]
+
+                    img(src="assets/images/pages/tema-2/imagen18.png", alt="").img-fluid
+
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot Aéreos]
+
+                    img(src="assets/images/pages/tema-2/imagen19.png", alt="").img-fluid
+
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot Acuáticos]
+
+                    img(src="assets/images/pages/tema-2/imagen20.png", alt="").img-fluid
+
+
+        .row.justify-content-center.align-items-center.mt-5
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot para Investigación  ]
+
+                    img(src="assets/images/pages/tema-2/imagen21.png", alt="").img-fluid
+
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot didáctico]
+
+                    img(src="assets/images/pages/tema-2/imagen22.png", alt="").img-fluid
+
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot y Bioningeniería   ]
+
+                    img(src="assets/images/pages/tema-2/imagen23.png", alt="").img-fluid
+
+            .col-12.col-lg-3.mt-5.text-center
+                    p #[strong Robot Androide]
+
+                    img(src="assets/images/pages/tema-2/imagen24.png", alt="").img-fluid
+
+        .row.my-5
+            .col-12.col-lg-12
+
+                h2 #[strong Clasificación de los robots]
+
+                p #[strong #[em Según su cronología:]]  La que a continuación se presenta es la clasificación más común: 
+                p • 1a Generación: Manipuladores. Son sistemas mecánicos multifuncionales con un sencillo sistema de control, bien manual, de secuencia fija o de secuencia variable.
+                p • 2a Generación: Robots de aprendizaje. Repiten una secuencia de movimientos que ha sido ejecutada previamente por un operador humano , por medio de un dispositivo mecánico. El operador realiza movimientos requeridos que el robot sigue y memoriza. 
+                p • 3a Generación: Robots con control sensorizado. El controlador es una computadora que ejecuta las órdenes de un programa y las envía al manipulador para que realice los movimientos necesarios. 
+                p • 4a Generación: Robots inteligentes. Son similares a los anteriores, pero además poseen sensores que envían información a la computadora de control sobre el estado del proceso. Esto permite una toma inteligente de decisiones y el control del proceso en tiempo real. 
+
+                p #[strong #[em Según su inteligencia:]] La Asociación de Robots Japonés (JIRA) ha clasificado a los robots dentro de seis clases sobre la base de su nivel de inteligencia: 
+                
+                ol 
+
+                    li 
+                        p Dispositivos de manejo manual, controlados por una persona. 
+                    li 
+                        p Robots de secuencia arreglada. 
+                    li 
+                        p Robots de secuencia variable, donde un operador puede modificar la secuencia fácilmente. 
+                    li 
+                        p Robots regeneradores, donde el operador humano conduce el robot a través de la tarea. 
+                    li 
+                        p Robots de control numérico, donde el operador alimenta la programación del movimiento, hasta que se enseñe manualmente la tarea. 
+                    li 
+                        p Robots inteligentes, los cuales pueden entender e interactuar con cambios en el medio ambiente.
 
 
         .row.justify-content-center.align-items-center.mt-5
@@ -297,6 +296,6 @@
                 .text-center.p-2.recuadro-border
                     h2 ¡Pon a prueba tu conocimiento!
                     p La siguiente actividad tiene como propósito validar los conocimientos adquiridos sobre <strong>Componentes de un Robot</strong>.
-                    a(href="media/actividad-1/index.html" target="_blank" class="btn btn-colour-purple") Iniciar            
+                    a(href="media/actividad-2/story.html" target="_blank" class="btn btn-colour-purple") Iniciar            
                     hr.line-40.bg-purple        
-    
+

@@ -16,12 +16,6 @@ html(lang="es")
 
                     +pageHeader("Tema", "assets/images/header/header_media.svg", "")   
 
-        section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
-
-            .container
-
-                include includes/page-home_resultados.pug  
-
         section#IndiceTematico.curso-indice-tematico.section
 
             .container
@@ -42,8 +36,6 @@ html(lang="es")
                                     +navTemaItem('3', 'Disciplinas Asociadas a la Robótica', '#tema-3')
                                     +navTemaItem('4', 'Automatización en la Agroindustria', '#tema-4')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('folder', 'Material complementario', '#anexos')
-                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
@@ -59,10 +51,6 @@ html(lang="es")
                 include pages/tema-4.pug
             #glosario
                 include pages/glosario.pug
-            #anexos
-                include pages/material-complementario.pug
-            #referencias
-                include pages/referencias.pug
 
 
         +creditosFooter("assets/images/logos/senaLogo.svg")
